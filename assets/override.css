@@ -1,0 +1,31 @@
+html body .interactive-slider-v2 {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    background: #18ba9b;
+}
+
+html body .interactive-slider-v2:after {
+    background: rgba(0,0,0,0);
+}
+
+html body .sky-form {
+    border: none;
+}
+
+html body .btn-teal {
+    background: #18ba9b;
+}
+
+html body .btn-teal:hover,
+html body .btn-teal:focus,
+html body .btn-teal:active,
+html body .btn-teal.active {
+    background: #2cd5b6;
+    color: #fff;
+}
+
+.message_area {
+    margin-bottom: 20px;
+}
