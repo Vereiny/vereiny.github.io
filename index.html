@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <!--[if IE 8]>
-<html lang="en" class="ie8"> <![endif]-->
+<html lang="de" class="ie8"> <![endif]-->
 <!--[if IE 9]>
-<html lang="en" class="ie9"> <![endif]-->
+<html lang="de" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="de"> <!--<![endif]-->
 <head>
   <title>Vereiny.com - Bald verfügbar</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description"
+        content="Vereiny.com ist die neue Online-Lösung für Vereine und Non-Profit Organisationen. Innerhalb von 5 Minuten können Sie Ihre Online-Präsenz erstellen und News veröffentlichen. Gratis.">
   <meta name="author" content="ACME Software Solutions">
+
+  <!-- facebook -->
+  <meta property="og:url" content="http://vereiny.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="de_CH"/>
+  <meta property="og:locale:alternate" content="de_DE"/>
+  <meta property="og:locale:alternate" content="de_AT"/>
+  <meta property="og:title" content="Vereiny.com"/>
+  <meta property="og:description" content="Vereiny ist die neue Online-Lösung für Vereine und Non-Profit Organisationen. Innerhalb von 5 Minuten können Sie Ihre Online-Präsenz erstellen und News veröffentlichen. Gratis."/>
+  <meta property="og:image" content="http://vereiny.com/assets/img/logo/vereiny_logo_cropped_trans.png"/>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" sizes="16x16 24x24 32x32 48x48 64x64">
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="shortcut icon" href="favicon.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="apple_touch_icon.png" />
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="shortcut icon" href="favicon.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="apple_touch_icon.png"/>
 
   <!-- Web Fonts -->
   <link rel='stylesheet' type='text/css'
@@ -68,10 +79,17 @@
       });
   </script>
   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+                  (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
       ga('create', 'UA-92379309-1', 'auto');
       ga('send', 'pageview');
@@ -99,7 +117,8 @@
         "url": "http://www.vereiny.com"
       }
     }
-   </script>
+
+  </script>
 </head>
 
 <body class="header-fixed">
@@ -221,7 +240,8 @@
                       <input class="form-control input-lg" type="text" name="email" id="email" value=""
                              placeholder="ihre@email.com">
                       <span class="input-group-btn">
-                      <button class="btn btn-success btn-lg btn-teal" type="submit" data-editfield="subscribe">Anmelden</button>
+                      <button class="btn btn-success btn-lg btn-teal" type="submit"
+                              data-editfield="subscribe">Anmelden</button>
                     </span>
                     </div>
                   </div>
@@ -267,7 +287,8 @@
       var sib_prefix = 'sib';
       var sib_dateformat = 'dd.mm.yyyy';
   </script>
-  <script type='text/javascript' src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1.0'></script>
+  <script type='text/javascript'
+          src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1.0'></script>
   <script type='text/javascript'>
       jQuery.noConflict(true);
   </script>
