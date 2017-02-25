@@ -6,7 +6,7 @@
 <!--[if !IE]><!-->
 <html lang="de"> <!--<![endif]-->
 <head>
-  <title>Vereiny.com - Bald verfügbar</title>
+  <title>Vereiny.com - Die Online-Lösung für Vereine und Non-Profit Organisationen</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
@@ -122,6 +122,28 @@
 </head>
 
 <body class="header-fixed">
+
+<!-- facebook sdk init -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1114682881987801',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/de_CH/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 <div class="wrapper">
   <!--=== Header v8 ===-->
   <div class="header-v8 header-sticky header-fixed-shrink">
@@ -254,6 +276,27 @@
           </div>
         </div>
       </div>
+
+      <hr>
+      <div class="row">
+        <div class="col-xs-6 col-md-6 text-right">
+          <a href="https://twitter.com/share"
+             class="twitter-share-button"
+             data-url="http://vereiny.com?utm_source=twitter&amp;utm_medium=webpage&amp;utm_campaign=share-btn"
+             data-show-count="true">Tweet</a>
+        </div>
+        <div class="col-xs-6 col-md-6 text-left">
+          <div class="fb-share-button"
+               data-href="http://vereiny.com?utm_source=facebook&utm_medium=webpage&utm_campaign=share-btn"
+               data-layout="button_count"
+               data-size="small"
+               data-mobile-iframe="false">
+            <a class="fb-xfbml-parse-ignore" target="_blank"
+               href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fvereiny.com%2F&amp;src=sdkpreparse">Teilen</a>
+          </div>
+        </div>
+      </div>
+
       <!-- End : SendinBlue Signup Form HTML Code -->
 
       <!--End mc_embed_signup-->
@@ -292,6 +335,7 @@
   <script type='text/javascript'>
       jQuery.noConflict(true);
   </script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </body>
 </html>
